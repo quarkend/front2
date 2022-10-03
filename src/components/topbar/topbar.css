@@ -1,0 +1,104 @@
+.topbarContainer{
+    height: 50px;
+    width: 100%;
+    background-color: #f4f4f4;
+    display:flex;
+    align-items:center;
+    position: sticky;
+    top:0;
+    z-index: 999;
+}
+.topbarLeft{
+    flex:3;
+    padding-left: 0.5rem;
+    display: flex;
+}
+.logo{
+    font-size:  24px;
+    margin: left 20px;
+    color:rgb(255, 255, 255);
+    cursor: pointer;
+}
+.burgerNav{
+    display: flex;
+    align-items: center;
+   padding-left: 0.5em;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.topbarCenter{
+    flex:4;
+    display: flex;
+   
+}
+.topbar-title {
+    text-align: center;
+    margin: 0 26px 0px;
+    color: black;
+    /* text-decoration: underline; */
+    font-size: xxx-large;
+}
+
+.topbarRight{
+    flex:4;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    color:white;
+   
+}
+.topbarLink{
+    margin-right: 10px;
+    font-size:  14px;
+    cursor: pointer;
+}
+.topbarIcons{
+    display: flex;
+}
+
+.topbarIcons svg {
+  height: 28px;
+  width: 28px;
+}
+.topbarIconItem
+{
+     margin-right: 15px;  
+    cursor: pointer;
+    position: relative;
+}
+.topbarIconBadge
+{
+    width: 15px;
+    height: 15px;
+    background-color:red;
+    border-radius: 50%;
+    color:white;
+    position:absolute;
+       top: -5px;
+    right: -18px;
+    display: flex;
+    justify-content:center;
+    font-size: 12px;
+}
+.topbarImg{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+    padding: 0 0.5em 0;
+ 
+}
+.topbarIco{
+    width: 15em;
+ 
+}
+.topbarIcon{
+  width: 32px;
+  height: 32px;
+
+  object-fit: cover;
+  cursor: pointer;
+  padding: 0 0.5em 0em;
+
+}
