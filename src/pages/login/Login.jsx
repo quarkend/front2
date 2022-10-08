@@ -23,7 +23,7 @@ export const Login = () => {
       isSubmitting: true,
       errorMessage: null,
     });
-    fetch(`https://hinafi.tk/#/login`, {
+    fetch(`https://front2.pages.dev/#/login`, {
 
       method: "post",
       headers: {
