@@ -23,7 +23,7 @@ export const Login = () => {
       isSubmitting: true,
       errorMessage: null,
     });
-    fetch(`http://localhost:6868/api/login`, {
+    fetch(`https://front2.pages.dev/login`, {
 
       method: "post",
       headers: {
