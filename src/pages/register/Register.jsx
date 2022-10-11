@@ -20,7 +20,7 @@ export default function Register() {
         password: password.current.value,
       };
       try {
-        await axios.post("http://localhost:6868/api/auth/signup", user);
+        await axios.post("https://front2.pages.dev/auth/signup", user);
         history.push("/login");
       } catch (err) {
         console.log(err);
