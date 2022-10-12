@@ -20,7 +20,7 @@ export default function Register() {
         password: password.current.value,
       };
       try {
-        await axios.post("https://front2.pages.dev/auth/signup", user);
+        await axios.post("https://hinafi.tk/auth/signup", user);
         history.push("/login");
       } catch (err) {
         console.log(err);
